@@ -1,0 +1,7 @@
+{
+  "name": "Infer.NET",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "install": "dotnet build Infer.sln -c ReleaseCore"
+}
